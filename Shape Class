@@ -1,0 +1,23 @@
+package shapedone;
+
+public abstract class  shape {
+    public String str;
+	
+    
+    public abstract double area();
+	
+    
+    public abstract double perimeter();
+	
+    
+    public abstract String colour();
+	
+    
+    public shape(String name){
+    	
+    
+    	str =name;
+    	
+    }
+
+}
