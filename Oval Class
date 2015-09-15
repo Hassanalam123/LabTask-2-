@@ -1,0 +1,16 @@
+package shapedone;
+
+public class oval extends circle {
+
+public double z,x;
+public oval(double z, double x){
+ super("Oval");
+this.z=z;
+this.x=x;
+}
+public double area (){return  3.142*z*x;}
+public double perimeter(){return 2*3.142*((z*z)+(x*x)/2);}
+public String colour (){return "Silver";}
+}
+
+
