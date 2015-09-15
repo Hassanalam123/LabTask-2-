@@ -1,0 +1,19 @@
+package shapedone;
+
+public class trian extends shape {
+
+public double a,b,c;	
+
+public trian( double a, double b, double c){
+	super("Triangle");
+this.a=a;
+this.b=b;
+this.c=c;
+
+}
+public double area(){return 0.5*a*b;}
+public double perimeter(){return a+b+c;}
+public String colour(){return "Golden";}
+
+
+}
