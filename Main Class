@@ -1,0 +1,34 @@
+
+package shapedone;
+
+public class shapedone {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		shape [ ] shapeList = new shape[5];
+        shapeList[0] = new oval(4,10);
+        shapeList[1] = new rectangle(10,8);
+        shapeList[2] = new trian(5.0,4.0,10.0);
+        shapeList[3] = new circle(7);
+        shapeList[4] = new square(5);
+        for (int i = 0; i < shapeList.length; i++)  {
+        	
+        	System.out.print (shapeList[i].str + "  " );
+	
+        	
+        	System.out.print (shapeList[i].area( ) + "  "  );
+	
+        	
+        	System.out.print (shapeList[i].colour() + "  ") ;
+        	
+        	System.out.println (shapeList[i].perimeter( ));
+
+		
+		
+		
+
+}
+	}
+}
