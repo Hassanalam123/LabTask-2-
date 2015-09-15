@@ -1,0 +1,13 @@
+package shapedone;
+
+public class square extends rectangle {
+
+
+public square(double side){
+super("Square");
+ len = wid = side;
+
+}
+
+public String colour(){return "red";}
+}
