@@ -1,0 +1,18 @@
+package shapedone;
+
+public class circle extends shape  {
+public double r;
+
+public circle (double r)
+{
+		super("Circle");
+	this.r = r;
+	
+}
+public circle (String name){
+	super("Oval");
+}
+public double area (){return 3.142*r*r;}
+public double perimeter (){return 2*3.142*r;}
+public String colour() {return "Black";}
+}
