@@ -1,0 +1,22 @@
+package shapedone;
+
+public class rectangle extends shape {
+
+	public String naam;
+public double len,wid;
+
+public rectangle (double len,double wid){
+	super("Rectangle");
+this.len=len;
+this.wid=wid;
+}
+
+public rectangle (String name){
+	super("square");
+}
+
+public double area (){return len * wid;}
+public double perimeter(){ return 2*(len+wid);}
+public String colour (){return "yelllow";}
+
+}
